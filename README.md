@@ -107,3 +107,6 @@ The marching squares algorithm is a contour genrating algorithm for 2D rectangul
     }
 ```
 
+-The countour generation
+
+![](images/cave_generation.png)
