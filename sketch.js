@@ -7,7 +7,7 @@
 //      [ ] using a look-up table to make geometry of the contours(to draw isolines)
 
 let grid;
-let rez = 10;
+let rez = 5;
 let xoff = 0;
 let yoff = 0;
 let increment = 0.05;
