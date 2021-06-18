@@ -90,7 +90,6 @@ function draw() {
                     break;
                 case 1:
                     isoline(c, d);
-                    print("case 1 boiiii");
                     break;
                 case 2:
                     isoline(b, c);
