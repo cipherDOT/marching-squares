@@ -84,57 +84,57 @@ function draw() {
             );
 
             // switch cases for specific values of get state.
-            switch (state) {
-                case 0:
-                    null;
-                    break;
-                case 1:
-                    isoline(c, d);
-                    break;
-                case 2:
-                    isoline(b, c);
-                    break;
-                case 3:
-                    isoline(b, d);
-                    break;
-                case 4:
-                    isoline(a, b);
-                    break;
-                case 5:
-                    isoline(a, d);
-                    isoline(b, c);
-                    break;
-                case 6:
-                    isoline(a, c);
-                    break;
-                case 7:
-                    isoline(a, d);
-                    break;
-                case 8:
-                    isoline(a, d);
-                    break;
-                case 9:
-                    isoline(a, c);
-                    break;
-                case 10:
-                    isoline(a, b);
-                    isoline(c, d);
-                    break;
-                case 11:
-                    isoline(a, b);
-                    break;
-                case 12:
-                    isoline(b, d);
-                    break;
-                case 13:
-                    isoline(b, c);
-                    break;
-                case 14:
-                    isoline(c, d);
-                    break;
-                case 15:
-                    null;
-            }
+            // switch (state) {
+            //     case 0:
+            //         null;
+            //         break;
+            //     case 1:
+            //         isoline(c, d);
+            //         break;
+            //     case 2:
+            //         isoline(b, c);
+            //         break;
+            //     case 3:
+            //         isoline(b, d);
+            //         break;
+            //     case 4:
+            //         isoline(a, b);
+            //         break;
+            //     case 5:
+            //         isoline(a, d);
+            //         isoline(b, c);
+            //         break;
+            //     case 6:
+            //         isoline(a, c);
+            //         break;
+            //     case 7:
+            //         isoline(a, d);
+            //         break;
+            //     case 8:
+            //         isoline(a, d);
+            //         break;
+            //     case 9:
+            //         isoline(a, c);
+            //         break;
+            //     case 10:
+            //         isoline(a, b);
+            //         isoline(c, d);
+            //         break;
+            //     case 11:
+            //         isoline(a, b);
+            //         break;
+            //     case 12:
+            //         isoline(b, d);
+            //         break;
+            //     case 13:
+            //         isoline(b, c);
+            //         break;
+            //     case 14:
+            //         isoline(c, d);
+            //         break;
+            //     case 15:
+            //         null;
+            // }
         }
     }
     noLoop();
